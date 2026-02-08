@@ -478,6 +478,7 @@ ol {
   --warning-color:#F79009;
   --success-color:#12B76A;
   --danger-color:#FF0000;
+  --icon-background:#9D8E63;
 }
 
 [data-bs-theme=dark] {
@@ -6923,7 +6924,7 @@ textarea:focus-within {
 .about__icon-inner {
   width: 70px;
   height: 70px;
-  background-color: var(--bg-color-3);
+  background-color: var(--icon-background);
   border-radius: 50%;
 }
 .about__shape--style1 .about__shape-item {
